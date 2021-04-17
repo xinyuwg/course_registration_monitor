@@ -50,4 +50,4 @@ class Spider(object):
             print(self.course)
             print(soup.text)
             self.course.checkChange(courseInfoDict, soup.text)
-            time.sleep(self.timegap * 60 * random.random() * 10)
+            time.sleep(self.timegap * 60 * random.random())
